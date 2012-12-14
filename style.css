@@ -1,0 +1,114 @@
+div#slideshow{
+  width:860px;
+	height:348px;
+	margin-left:2px;
+	position:relative;
+}
+div#slides{
+	width:860px;
+	height:348px;
+	z-index:2;
+	position:relative;
+}
+div.waves{
+	width:860px;
+	height:348px;
+	background-color:transparent;
+	background-image:url(../Immagini/waves_slideshow.png);
+	background-position:0 bottom;
+	background-repeat:no-repeat;
+	z-index:4;
+	position:absolute;
+	top:0;
+	left:0;
+}
+div.slides_container{
+	width:860px;
+	height:348px;
+	overflow:hidden;
+	z-index:3;
+}
+div.slides_container div{
+	display:block;
+	width:860px;
+	height:348px;
+}
+div.slides_containe img{
+	display:block;
+	width:860px;
+	height:274px;
+	margin:0px;
+	z-index:3;
+}
+div#slides .next{
+	position:absolute;
+	top:85px;
+	left:830px;
+	width:30px;
+	height:60px;
+	display:block;
+	z-index:5;
+	background-color:transparent;
+	background-image:url(../Immagini/next.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+div#slides .next:hover{
+	position:absolute;
+	top:85px;
+	left:830px;
+	width:30px;
+	height:60px;
+	display:block;
+	z-index:5;
+	background-color:transparent;
+	background-image:url(../Immagini/next.png);
+	background-repeat:no-repeat;
+	background-position:-30px 0;
+}
+div#slides .prev {
+	position:absolute;
+	top:85px;
+	left:0px;
+	width:30px;
+	height:60px;
+	display:block;
+	z-index:5;
+	background-color:transparent;
+	background-image:url(../Immagini/prev.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+div#slides .prev:hover{
+	position:absolute;
+	top:85px;
+	left:0px;
+	width:30px;
+	height:60px;
+	display:block;
+	z-index:5;
+	background-color:transparent;
+	background-image:url(../Immagini/prev.png);
+	background-repeat:no-repeat;
+	background-position:-30px 0;
+}
+div.caption{
+	display:block;
+	padding-top:26px;
+	background-color:transparent;
+	background-image:url(../Immagini/freccia_caption.gif);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	position:absolute;
+	top:247px;
+	left:0px;
+	z-index:5;
+}
+div.caption p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size:14px;
+	color:#666666;
+	text-align:left;
+	line-height:16px;
+}
